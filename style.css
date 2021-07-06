@@ -2,6 +2,8 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family: 'Open Sans',
+    sans-serif;
 }
 #banner-part{
     width: 100%;
@@ -13,40 +15,58 @@
 
 }
 #food-net {
-    background-color: #011627;
+    background-color: #1d1e21;
     width: 100%;
 }
 .flex{
     display: flex;
 }
 .food-item{
-    width: 50%;
-    padding:30px 15px;
+    width: 55%;
+    padding:30px 35px;
 }
-.food-item-1 {
-    background-image: url(img/Group\ 8425.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 50%;
+.food-item-1{
+    width: 40%;
+}
+.food-item-1 img{
+    width: 100%;
 }
 .food-item-text{
-    padding-top: 110px;
+    padding-top: 90px;
 }
 .food-item h5{
 font-size:20px;
 color: #fff;
 letter-spacing:1px;
-padding-bottom: 30px;
+padding-bottom: 8px;
 }
 .food-item h2{
     font-size:40px;
     color: #fff;
-    padding-bottom:25px;
+    padding-bottom:15px;
     font-weight: bold;
     letter-spacing:2px;
 }
 .food-item span{
     color: #ffba08;
-
+}
+.food-item p{
+    font-size:18px;
+    line-height: 30px;
+    text-align:justify;
+    color: rgb(233, 227, 227);
+    padding-bottom: 20px;
+}
+.food-item a{
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    background-color:#C70039;
+    padding: 10px 30px ;
+    border-radius: 20px;
+    color:#ffffff;
+    font-size:18px;
+    letter-spacing:1px;
+    box-shadow: 5px 5px 3px #181717;
 }
