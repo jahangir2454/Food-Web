@@ -12,3 +12,41 @@
     background-size: cover;
 
 }
+#food-net {
+    background-color: #011627;
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.food-item{
+    width: 50%;
+    padding:30px 15px;
+}
+.food-item-1 {
+    background-image: url(img/Group\ 8425.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+.food-item-text{
+    padding-top: 110px;
+}
+.food-item h5{
+font-size:20px;
+color: #fff;
+letter-spacing:1px;
+padding-bottom: 30px;
+}
+.food-item h2{
+    font-size:40px;
+    color: #fff;
+    padding-bottom:25px;
+    font-weight: bold;
+    letter-spacing:2px;
+}
+.food-item span{
+    color: #ffba08;
+
+}
