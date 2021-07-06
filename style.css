@@ -17,6 +17,7 @@
 #food-net {
     background-color: #1d1e21;
     width: 100%;
+    padding-bottom: 50px;
 }
 .flex{
     display: flex;
@@ -69,4 +70,73 @@ padding-bottom: 8px;
     font-size:18px;
     letter-spacing:1px;
     box-shadow: 5px 5px 3px #181717;
+}
+.food-chef{
+    padding-top: 50px;
+    width: 70%;
+}
+.chef{
+    background-color: #1d1e21;
+    border-top: 1px solid rgb(59, 59, 59);
+    padding-bottom: 30px;
+}
+.about-pic{
+    width: 30%;
+}
+.about-pic img{
+    width: 100%;
+}
+#spec{
+     background-color: #1d1e21;
+     border-top: 1px solid rgb(59, 59, 59);
+     padding-top: 30px;
+}
+.spec{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.spec h5{
+    font-size:18px;
+    color: rgb(233, 227, 227);
+    letter-spacing:1px;
+    font-weight:400;
+}
+.spec h2{
+    color: #ffffff;
+    letter-spacing:1px;
+    padding: 10px;
+}
+.spec span{
+    color: #ffba08;
+}
+.spec p{
+    font-size:15px;
+    line-height:28px;
+    color:#fff;
+}
+.width{
+    width: 100%;
+    max-width: 1170px;
+    margin:0 auto;
+}
+.spec-pic{
+    width: 30%;
+    background-color: #2d2e30cc;
+    margin: 15px;
+    padding:15px;
+    border-radius: 7px;
+    text-align:center;
+    box-shadow: 3px 3px 8px #121414;
+}
+.spec-pic img{
+    border-radius: 7px;
+    width: 100%;
+}
+.spec-pic h3{
+    font-weight: 500;
+    color: #ffba08;
+    padding-bottom: 5px;
+}
+.spec-pic p{
+    color:#fff;
 }
